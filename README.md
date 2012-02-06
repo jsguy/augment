@@ -3,7 +3,7 @@
 The augment function is able to add to objects, without being destructive.
 For example:
 
-`
+```
 obj1 = {
 	plugins: ['a', 'b'],
 	config: {
@@ -22,11 +22,11 @@ obj2 = {
 };
 
 augment(obj1, obj2);
-`
+```
 
 After that, obj1 contains:
 
-`
+```
 {
 	plugins: ['a', 'b', 'c'],
 	config: {
@@ -36,4 +36,4 @@ After that, obj1 contains:
 		}
 	}
 }
-`
+```
